@@ -186,8 +186,8 @@ bool tranImageToBinnary(char* fcatalog, char* fbinnary)
         int ysize = GDALGetRasterYSize(m_dataset);
         int bands = GDALGetRasterCount(m_dataset);
 
-        int cxsize = 50;
-        int cyszie = 50;
+        int cxsize = 64;
+        int cyszie = 64;
         int *img_data = new int[cxsize*cyszie];
 
         int bandIdx = 1;
